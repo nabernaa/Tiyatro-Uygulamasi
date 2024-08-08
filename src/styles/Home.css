@@ -1,0 +1,42 @@
+.mainPage {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+  color: white;
+}
+
+.banner-box{
+  color: white;
+  position: absolute;
+  display: flex;
+  top: 25%;
+  flex-direction: column;
+  left: 5%;
+}
+
+.home-text{
+  color: white;
+}
+
+.home-text{
+  margin-top: '5%'; 
+  font-size:'28px';
+}
+
+.home-button{
+  font-size: 14px;
+  width: 220px;
+  height: 45px;
+  margin-top: 32px;
+  border-radius: 4px;
+}

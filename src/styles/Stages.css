@@ -1,0 +1,52 @@
+.stage-h1{
+    display: flex;
+    justify-content: center;
+}
+.stage-div {
+    margin: auto; 
+    text-align: center;
+    padding-top: 100px;
+}
+
+.stage-row {
+    display: flex; 
+    flex-direction: column; 
+    margin-top: 5%; 
+    justify-content: space-between;
+}
+
+.stage-col {
+    flex-basis: 30%; 
+    background-color: white; 
+    border-radius: 10px; 
+    margin-bottom: 5%; 
+    margin-left: 5%; 
+    margin-right: 5%;
+    box-sizing: border-box; 
+}
+
+.stage-text {
+    margin: 15% auto;
+}
+.stage-col img {
+    width: 60%; 
+    height: 60%;
+    display: block;
+    border-radius: 10px; 
+    background-size: contain;
+}
+
+.stage-col p {
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+    color: #000; 
+    font-weight: 600; 
+}
+
+.stage-col:hover {
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}

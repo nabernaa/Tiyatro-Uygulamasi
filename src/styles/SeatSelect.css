@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+:root {
+  --available-color: #fff;
+  --selected-color: #2ecc71;
+  --occupied-color: #e74c3c;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.seat-select-div {
+  font-family: "Lato", sans-serif;
+  background-color: #242333;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+} 
+
+.movie-container {
+  margin: 20px 0;
+}
+
+.movie-container select {
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.seat-section{
+  display: flex;
+  flex-direction: column;
+}
+.container-seat {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 700px;
+  margin-bottom: 3px;
+  padding: 4px;
+}
+
+.seat {
+  background-color: #444451;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 0;
+  height: 28px;
+  width: 36px;
+  margin:6px 6px 6px 6px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.seat:hover {
+  background-color: white; /* Koltuğun hover rengi */
+  color: black;
+  cursor: pointer; /* Fare imleci değişsin */
+}
+
+.seat.selected {
+  background-color: var(--selected-color);
+}
+
+.seat.occupied {
+  background-color: var(--occupied-color);
+}
+.seat-number {
+  display: block;
+}
+/* Selects the second row f*/
+.seat:nth-of-type(4) {
+  margin-right: 24px;
+}
+
+.seat:nth-last-of-type(4) {
+  margin-left: 24px;
+}
+
+.seat:not(.occupied) {
+  cursor: pointer;
+}
+
+.showcase .seat:not(.occupied) {
+  cursor: default;
+}
+
+.showcase {
+    width: 800px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #777;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.showcase li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.showcase li small {
+  margin-left: 2px;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 4px;
+  margin-left: 4px;
+}
+
+.stage {    
+    background-color: #444451;
+    height: 160px;
+    width: 100%;
+    margin: 15px 0;  
+    border-radius: 0 0 30px 30px;
+    text-align: center;
+    padding-top: 7%;
+    font-size: 36px;
+}
+.divider{
+    background-color: #444451;
+    width: 100%;
+    height: 20px;
+    margin: 15px 0; 
+}
+
+.payment-section{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 14px;
+  align-items: center;  
+  margin-left: 40px;
+}
+
+p.text {
+  margin: 12px 0;
+}
+
+p.text span {
+  color: black;
+}
+
+.button-seatSelect {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-seatSelect:hover {
+  background-color: gray;
+}

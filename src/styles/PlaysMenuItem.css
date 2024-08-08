@@ -1,0 +1,12 @@
+.inspect-button{
+    width: 120px;
+    height: 30px;
+    border-radius: 12px;
+    margin-top: 12px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.inspect-button:hover{
+    background-color:floralwhite;
+}

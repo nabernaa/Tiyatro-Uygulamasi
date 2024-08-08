@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-family: "Outfit", sans-serif;
+  background:#141e30;
+}
+
+.mainNav {
+  background-color: #0e1722;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.mainNav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.mainNav a::after {
+  content:' '; 
+  width:0%;
+  height: 2px;
+  background-color: rgb(230, 190, 60);
+  display: block;
+  margin: 5px auto;
+  transition: 0.5s;
+}
+
+.mainNav a:hover::after {
+  width: 100%; 
+}
+
+.mainNav a.active {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.leftItems {
+  display: flex; 
+}
+
+.rightItems {
+  display: flex; 
+}

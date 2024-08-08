@@ -1,0 +1,65 @@
+.order-summary {
+    width: 250px;
+    max-height: 600px;
+    max-height: 500px;
+    margin-left: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    overflow: auto;
+  }
+  
+  .order-summary h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .order-summary ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product-container {
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2px;
+    padding-top: 15px;
+    border: 0.1px solid grey;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .product-container:hover {
+    background-color: lightsteelblue; 
+  }
+
+  .product-info {
+    padding: 2px;
+    padding-left: 8px;
+    margin-bottom: 12px;
+  }
+
+  .product-info span {
+    display: block; /* Her bir span'ı tek bir satırda göster */
+    margin-bottom: 4px;
+  }
+
+/*   .close-button {
+    cursor: pointer;
+    margin-left: 92%;
+} */
+  .total{
+    height: 80px;
+    padding: 30px 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
